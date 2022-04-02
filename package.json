@@ -1,0 +1,21 @@
+{
+  "name": "heckernews",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.25.3",
+    "graphql": "^14.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "prisma": "^3.11.1"
+  }
+}
